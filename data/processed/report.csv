@@ -1,0 +1,11 @@
+pr_number,pr_title,author,merge_date,CR_Passed,CHECKS_PASSED,approvers,check_problems,checks_basis
+55992,Update dependency barcode-detector to v3.2.4,renovate[bot],2026-11-18T15:38:28Z,True,True,MindFreeze,,required
+55982,Move database analyze to the Storage page toolbar,erwindouna,2026-11-18T05:10:48Z,True,True,balloob,,required
+55981,Show integration icons in the startup details,erwindouna,2026-11-17T13:10:46Z,True,True,silamon,,required
+55979,"Revert ""Let users hide entities from the maintenance page (#55610)""",maartenla,2026-11-17T11:27:03Z,True,True,silamon,,required
+55978,Update pnpm to v12.21.0,renovate[bot],2026-11-17T06:31:12Z,True,True,"MindFreeze, silamon",,required
+55977,Update dependency eslint to v10.15.0,renovate[bot],2026-11-17T06:00:22Z,True,True,silamon,,required
+55976,Update Playwright,renovate[bot],2026-11-17T06:00:38Z,True,True,silamon,,required
+55974,Show the next unit in bytesToString when rounding reaches it,raman325,2026-11-17T06:05:06Z,True,True,silamon,,required
+55973,Transliterate Cyrillic х as kh in slugify,raman325,2026-11-17T06:03:23Z,True,True,silamon,,required
+55972,Fix IP address validation for leading zeros and embedded IPv4,raman325,2026-11-17T07:13:02Z,True,True,MindFreeze,,required

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 5931301393,
+    "node_id": "PRR_kwDOAlLUS88AAAABYYh6EQ",
+    "user": {
+      "login": "copilot-pull-request-reviewer[bot]",
+      "id": 175728472,
+      "node_id": "BOT_kgDOCnlnWA",
+      "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+      "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+      "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Copilot was unable to review this pull request because the user who requested the review has insufficient remaining quota. Try requesting a review at a lower effort level.",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55972#pullrequestreview-5931301393",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55972",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": true,
+    "copilot_code_review_effort": null,
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55972#pullrequestreview-5931301393"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55972"
+      }
+    },
+    "submitted_at": "2026-11-17T01:47:17Z",
+    "commit_id": "cdd656952f45bebf86d05316df4474f32419085f"
+  },
+  {
+    "id": 5934384936,
+    "node_id": "PRR_kwDOAlLUS88AAAABYbeHKA",
+    "user": {
+      "login": "MindFreeze",
+      "id": 5219205,
+      "node_id": "MDQ6VXNlcjUyMTkyMDU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5219205?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MindFreeze",
+      "html_url": "https://github.com/MindFreeze",
+      "followers_url": "https://api.github.com/users/MindFreeze/followers",
+      "following_url": "https://api.github.com/users/MindFreeze/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MindFreeze/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MindFreeze/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MindFreeze/subscriptions",
+      "organizations_url": "https://api.github.com/users/MindFreeze/orgs",
+      "repos_url": "https://api.github.com/users/MindFreeze/repos",
+      "events_url": "https://api.github.com/users/MindFreeze/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MindFreeze/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "",
+    "state": "APPROVED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55972#pullrequestreview-5934384936",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55972",
+    "author_association": "MEMBER",
+    "is_copilot_code_review": false,
+    "copilot_code_review_effort": null,
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55972#pullrequestreview-5934384936"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55972"
+      }
+    },
+    "submitted_at": "2026-11-17T07:12:54Z",
+    "commit_id": "cdd656952f45bebf86d05316df4474f32419085f"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": 5940982076,
+    "node_id": "PRR_kwDOAlLUS88AAAABYhwxPA",
+    "user": {
+      "login": "copilot-pull-request-reviewer[bot]",
+      "id": 175728472,
+      "node_id": "BOT_kgDOCnlnWA",
+      "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+      "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+      "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<!-- ccr-overview-v2 -->\n\n### \ud83d\udfe1 Changes recommended\n\nLoading the cached report only in `firstUpdated` leaves the database card empty when Recorder becomes available after the page mounts, until the user starts an analysis or reopens the page.\n\n<details open>\n<summary><strong>1 open issue</strong></summary>\n\n- <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.githubassets.com/static/images/icons/copilot-code-review/medium-v2-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.githubassets.com/static/images/icons/copilot-code-review/medium-v2-light.svg\"><img src=\"https://github.githubassets.com/static/images/icons/copilot-code-review/medium-v2-light.png\" alt=\"Medium severity\" width=\"62\" height=\"18\" align=\"texttop\"></picture> [Load cached report when Recorder becomes available](https://github.com/home-assistant/frontend/pull/55982#discussion_r4601451757) \u00b7 New\n</details>\n\n<details>\n<summary><strong>What changed in this PR</strong></summary>\n\nThis follow-up to #55659 moves database analysis into the Storage page toolbar and simplifies the Database card\u2019s appearance.\n\n**Changes:**\n- Replaces the card\u2019s Analyze button with a localized toolbar refresh icon.\n- Moves database requests and loading/error state into the Storage page.\n- Removes database table row dividers while preserving the shared table\u2019s default styling.\n\n| File | Description |\r\n| ---- | ----------- |\r\n| `src/\u200btranslations/\u200ben.json` | Updates analysis instructions and the toolbar action label. |\r\n| `src/\u200bpanels/\u200bconfig/\u200bstorage/\u200bstorage-database-card.ts` | Receives analysis state from the parent, removes its action button, and hides row dividers. |\r\n| `src/\u200bpanels/\u200bconfig/\u200bstorage/\u200bha-config-section-storage.ts` | Adds the toolbar action and manages database requests and state. |\r\n| `src/\u200bcomponents/\u200bdata-table/\u200bha-data-table.ts` | Adds a configurable row-border width with the existing default. |\n</details>\n\n<sub>Review effort: Balanced</sub>",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55982#pullrequestreview-5940982076",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55982",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": true,
+    "copilot_code_review_effort": "balanced",
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55982#pullrequestreview-5940982076"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55982"
+      }
+    },
+    "submitted_at": "2026-11-17T15:06:12Z",
+    "commit_id": "661729e7f1b3a37b8d7ecd4c524c662b6328c4f9"
+  },
+  {
+    "id": 5941248924,
+    "node_id": "PRR_kwDOAlLUS88AAAABYiBDnA",
+    "user": {
+      "login": "copilot-pull-request-reviewer[bot]",
+      "id": 175728472,
+      "node_id": "BOT_kgDOCnlnWA",
+      "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+      "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+      "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<!-- ccr-overview-v2 -->\n\n### \ud83d\udfe2 Approval recommended\n\nNo active review issues are reported for the database analysis toolbar move and related display updates.\n\n**No open issues** \ud83c\udf89\n\n<details>\n<summary><strong>1 resolved since last review</strong></summary>\n\n- <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.githubassets.com/static/images/icons/copilot-code-review/medium-v2-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.githubassets.com/static/images/icons/copilot-code-review/medium-v2-light.svg\"><img src=\"https://github.githubassets.com/static/images/icons/copilot-code-review/medium-v2-light.png\" alt=\"Medium severity\" width=\"62\" height=\"18\" align=\"texttop\"></picture> [Load cached report when Recorder becomes available](https://github.com/home-assistant/frontend/pull/55982#discussion_r4601451757)\n</details>\n\n<sub>Review effort: Balanced</sub>",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55982#pullrequestreview-5941248924",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55982",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": true,
+    "copilot_code_review_effort": "balanced",
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55982#pullrequestreview-5941248924"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55982"
+      }
+    },
+    "submitted_at": "2026-11-17T15:21:54Z",
+    "commit_id": "3af2d64a6622e8710e5d2da1a94cfbcae709d187"
+  },
+  {
+    "id": 5951137776,
+    "node_id": "PRR_kwDOAlLUS88AAAABYrcn8A",
+    "user": {
+      "login": "balloob",
+      "id": 1444314,
+      "node_id": "MDQ6VXNlcjE0NDQzMTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1444314?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/balloob",
+      "html_url": "https://github.com/balloob",
+      "followers_url": "https://api.github.com/users/balloob/followers",
+      "following_url": "https://api.github.com/users/balloob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/balloob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/balloob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/balloob/subscriptions",
+      "organizations_url": "https://api.github.com/users/balloob/orgs",
+      "repos_url": "https://api.github.com/users/balloob/repos",
+      "events_url": "https://api.github.com/users/balloob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/balloob/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "",
+    "state": "APPROVED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55982#pullrequestreview-5951137776",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55982",
+    "author_association": "MEMBER",
+    "is_copilot_code_review": false,
+    "copilot_code_review_effort": null,
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55982#pullrequestreview-5951137776"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55982"
+      }
+    },
+    "submitted_at": "2026-11-18T05:10:37Z",
+    "commit_id": "3af2d64a6622e8710e5d2da1a94cfbcae709d187"
+  }
+]

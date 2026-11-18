@@ -1,0 +1,86 @@
+[
+  {
+    "id": 5933011769,
+    "node_id": "PRR_kwDOAlLUS88AAAABYaKTOQ",
+    "user": {
+      "login": "copilot-pull-request-reviewer[bot]",
+      "id": 175728472,
+      "node_id": "BOT_kgDOCnlnWA",
+      "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+      "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+      "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<!-- ccr-overview-v2 -->\n\n### \ud83d\udfe2 Approval recommended\n\nNo active review issues are reported for the aligned Playwright dependency and CI container updates.\n\n**No open issues** \ud83c\udf89\n\n<details>\n<summary><strong>1 file not reviewed</strong></summary>\n\n<ul>\n<li><strong><code>pnpm-lock.yaml</code></strong>: Generated file</li>\n</ul>\n</details>\n\n<details>\n<summary><strong>What changed in this PR</strong></summary>\n\nUpdates Home Assistant\u2019s Playwright test tooling from 1.65.0 to 1.65.1, keeping the dependency and end-to-end CI containers aligned.\n\n**Changes:**\n- Bumps `@playwright/test` and its locked dependencies to 1.65.1.\n- Updates all four Playwright CI container references to the matching Noble image and digest.\n\n| File | Description |\r\n| ---- | ----------- |\r\n| `pnpm-lock.yaml` | Updates Playwright package versions, integrity hashes, and dependency snapshots. |\r\n| `package.json` | Pins `@playwright/test` to 1.65.1. |\r\n| `.github/\u200bworkflows/\u200be2e.yaml` | Updates Playwright container tags and digests for preparation and test jobs. |\n</details>\n\n<sub>Review effort: Balanced</sub>",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55976#pullrequestreview-5933011769",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55976",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": true,
+    "copilot_code_review_effort": "balanced",
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55976#pullrequestreview-5933011769"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55976"
+      }
+    },
+    "submitted_at": "2026-11-17T04:44:29Z",
+    "commit_id": "e3ec665f9d4d8912d83dd53e923b7e0a6b8bd826"
+  },
+  {
+    "id": 5933739136,
+    "node_id": "PRR_kwDOAlLUS88AAAABYa2sgA",
+    "user": {
+      "login": "silamon",
+      "id": 32477463,
+      "node_id": "MDQ6VXNlcjMyNDc3NDYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32477463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/silamon",
+      "html_url": "https://github.com/silamon",
+      "followers_url": "https://api.github.com/users/silamon/followers",
+      "following_url": "https://api.github.com/users/silamon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/silamon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/silamon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/silamon/subscriptions",
+      "organizations_url": "https://api.github.com/users/silamon/orgs",
+      "repos_url": "https://api.github.com/users/silamon/repos",
+      "events_url": "https://api.github.com/users/silamon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/silamon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "",
+    "state": "APPROVED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55976#pullrequestreview-5933739136",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55976",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": false,
+    "copilot_code_review_effort": null,
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55976#pullrequestreview-5933739136"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55976"
+      }
+    },
+    "submitted_at": "2026-11-17T06:00:31Z",
+    "commit_id": "e3ec665f9d4d8912d83dd53e923b7e0a6b8bd826"
+  }
+]
