@@ -1,0 +1,86 @@
+[
+  {
+    "id": 5935360064,
+    "node_id": "PRR_kwDOAlLUS88AAAABYcZoQA",
+    "user": {
+      "login": "copilot-pull-request-reviewer[bot]",
+      "id": 175728472,
+      "node_id": "BOT_kgDOCnlnWA",
+      "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+      "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+      "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<!-- ccr-overview-v2 -->\n\n### \ud83d\udfe2 Approval recommended\n\nNo active review issues are reported for the revert restoring automatic entity selection on the maintenance page and Home summary.\n\n**No open issues** \ud83c\udf89\n\n<details>\n<summary><strong>What changed in this PR</strong></summary>\n\nReverts #55610, removing maintenance-page-specific entity hiding from the Home Assistant frontend and restoring automatic entity selection for the maintenance page and Home summary.\n\n**Changes:**\n- Removes visibility editing and maintenance preference loading, saving, and subscriptions.\n- Removes the visibility wrapper card, related configuration fields, filtering helpers, and editor translations.\n- Updates tests to reflect entity selection without maintenance-specific exclusions.\n\n| File | Description |\r\n| ---- | ----------- |\r\n| `test/\u200bpanels/\u200bmaintenance/\u200bstrategies/\u200bmaintenance-view-strategy.test.ts` | Removes tests for hidden entities and visibility editing. |\r\n| `test/\u200bcommon/\u200bentity/\u200bentity_filter.test.ts` | Restores filtering tests without explicit exclusions. |\r\n| `src/\u200btranslations/\u200ben.json` | Removes maintenance visibility-editor strings. |\r\n| `src/\u200bpanels/\u200bmaintenance/\u200bstrategies/\u200bmaintenance-view-strategy.ts` | Restores direct tile generation without visibility overrides. |\r\n| `src/\u200bpanels/\u200bmaintenance/\u200bha-panel-maintenance.ts` | Removes editing controls and maintenance preference handling. |\r\n| `src/\u200bpanels/\u200blovelace/\u200bstrategies/\u200bhome/\u200bhome-overview-view-strategy.ts` | Removes maintenance exclusions from summary generation. |\r\n| `src/\u200bpanels/\u200blovelace/\u200bstrategies/\u200bhome/\u200bhome-dashboard-strategy.ts` | Stops forwarding maintenance visibility preferences. |\r\n| `src/\u200bpanels/\u200blovelace/\u200bstrategies/\u200bhelpers/\u200bentity-visibility.ts` | Deletes the visibility wrapper helper. |\r\n| `src/\u200bpanels/\u200blovelace/\u200bcreate-element/\u200bcreate-card-element.ts` | Removes visibility-card lazy loading. |\r\n| `src/\u200bpanels/\u200blovelace/\u200bcards/\u200btypes.ts` | Removes visibility-card and summary exclusion fields. |\r\n| `src/\u200bpanels/\u200blovelace/\u200bcards/\u200bhui-home-summary-card.ts` | Calculates maintenance status without page-specific exclusions. |\r\n| `src/\u200bpanels/\u200blovelace/\u200bcards/\u200bhui-entity-visibility-card.ts` | Deletes the visibility-editing wrapper card. |\r\n| `src/\u200bpanels/\u200bhome/\u200bha-panel-home.ts` | Removes maintenance preference fetching and subscriptions. |\r\n| `src/\u200bdata/\u200bfrontend.ts` | Removes maintenance data types and queued-save helpers. |\r\n| `src/\u200bcommon/\u200bentity/\u200bentity_filter.ts` | Removes explicit entity-exclusion support. |\n</details>\n\n<sub>Review effort: Balanced</sub>",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55979#pullrequestreview-5935360064",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55979",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": true,
+    "copilot_code_review_effort": "balanced",
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55979#pullrequestreview-5935360064"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55979"
+      }
+    },
+    "submitted_at": "2026-11-17T08:44:22Z",
+    "commit_id": "e0ecae4f2624033557dd38ad5bfc5280790d5784"
+  },
+  {
+    "id": 5937579920,
+    "node_id": "PRR_kwDOAlLUS88AAAABYehHkA",
+    "user": {
+      "login": "silamon",
+      "id": 32477463,
+      "node_id": "MDQ6VXNlcjMyNDc3NDYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32477463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/silamon",
+      "html_url": "https://github.com/silamon",
+      "followers_url": "https://api.github.com/users/silamon/followers",
+      "following_url": "https://api.github.com/users/silamon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/silamon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/silamon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/silamon/subscriptions",
+      "organizations_url": "https://api.github.com/users/silamon/orgs",
+      "repos_url": "https://api.github.com/users/silamon/repos",
+      "events_url": "https://api.github.com/users/silamon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/silamon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "",
+    "state": "APPROVED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55979#pullrequestreview-5937579920",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55979",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": false,
+    "copilot_code_review_effort": null,
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55979#pullrequestreview-5937579920"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55979"
+      }
+    },
+    "submitted_at": "2026-11-17T11:26:42Z",
+    "commit_id": "e0ecae4f2624033557dd38ad5bfc5280790d5784"
+  }
+]

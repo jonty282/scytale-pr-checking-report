@@ -1,0 +1,128 @@
+[
+  {
+    "id": 5937121327,
+    "node_id": "PRR_kwDOAlLUS88AAAABYeFILw",
+    "user": {
+      "login": "copilot-pull-request-reviewer[bot]",
+      "id": 175728472,
+      "node_id": "BOT_kgDOCnlnWA",
+      "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+      "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+      "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<!-- ccr-overview-v2 -->\n\n### \ud83d\udfe2 Approval recommended\n\nNo active review issues remain for the integration brand-icon changes in the startup details dialog.\n\n**No open issues** \ud83c\udf89\n\n<details>\n<summary><strong>What changed in this PR</strong></summary>\n\nAdds integration brand icons to the startup details dialog introduced in #55834, making integrations easier to identify during startup and in the completion summary.\n\n**Changes:**\n- Displays brand icons once a brands access token is available, with dark-mode support.\n- Moves failed integrations\u2019 red alert icons to the end of each row.\n- Applies consistent 24px sizing to brand images.\n\n| File | Description |\r\n| ---- | ----------- |\r\n| `src/\u200bdialogs/\u200bstartup-progress/\u200bdialog-startup-progress.ts` | Adds theme-aware brand icons and repositions failure indicators. |\n</details>\n\n<sub>Review effort: Balanced</sub>",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55981#pullrequestreview-5937121327",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55981",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": true,
+    "copilot_code_review_effort": "balanced",
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55981#pullrequestreview-5937121327"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55981"
+      }
+    },
+    "submitted_at": "2026-11-17T10:53:42Z",
+    "commit_id": "d8bdffb9c4ae8c26396c74e8c61d3124ab9d091c"
+  },
+  {
+    "id": 5938138508,
+    "node_id": "PRR_kwDOAlLUS88AAAABYfDNjA",
+    "user": {
+      "login": "copilot-pull-request-reviewer[bot]",
+      "id": 175728472,
+      "node_id": "BOT_kgDOCnlnWA",
+      "avatar_url": "https://avatars.githubusercontent.com/in/946600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D",
+      "html_url": "https://github.com/apps/copilot-pull-request-reviewer",
+      "followers_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/copilot-pull-request-reviewer%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<!-- ccr-overview-v2 -->\n\n### \ud83d\udfe2 Approval recommended\n\nThe startup dialog\u2019s integration-icon changes have no active review issues.\n\n**No open issues** \ud83c\udf89\n\n<sub>Review effort: Balanced</sub>",
+    "state": "COMMENTED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55981#pullrequestreview-5938138508",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55981",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": true,
+    "copilot_code_review_effort": "balanced",
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55981#pullrequestreview-5938138508"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55981"
+      }
+    },
+    "submitted_at": "2026-11-17T12:11:50Z",
+    "commit_id": "4276f7e1508f253becaffdde19c066c093a4ebeb"
+  },
+  {
+    "id": 5939043844,
+    "node_id": "PRR_kwDOAlLUS88AAAABYf6eBA",
+    "user": {
+      "login": "silamon",
+      "id": 32477463,
+      "node_id": "MDQ6VXNlcjMyNDc3NDYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32477463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/silamon",
+      "html_url": "https://github.com/silamon",
+      "followers_url": "https://api.github.com/users/silamon/followers",
+      "following_url": "https://api.github.com/users/silamon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/silamon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/silamon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/silamon/subscriptions",
+      "organizations_url": "https://api.github.com/users/silamon/orgs",
+      "repos_url": "https://api.github.com/users/silamon/repos",
+      "events_url": "https://api.github.com/users/silamon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/silamon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "",
+    "state": "APPROVED",
+    "html_url": "https://github.com/home-assistant/frontend/pull/55981#pullrequestreview-5939043844",
+    "pull_request_url": "https://api.github.com/repos/home-assistant/frontend/pulls/55981",
+    "author_association": "CONTRIBUTOR",
+    "is_copilot_code_review": false,
+    "copilot_code_review_effort": null,
+    "_links": {
+      "html": {
+        "href": "https://github.com/home-assistant/frontend/pull/55981#pullrequestreview-5939043844"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/home-assistant/frontend/pulls/55981"
+      }
+    },
+    "submitted_at": "2026-11-17T13:10:21Z",
+    "commit_id": "4276f7e1508f253becaffdde19c066c093a4ebeb"
+  }
+]

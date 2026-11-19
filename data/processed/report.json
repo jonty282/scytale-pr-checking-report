@@ -1,0 +1,112 @@
+[
+  {
+    "pr_number": 55992,
+    "pr_title": "Update dependency barcode-detector to v3.2.4",
+    "author": "renovate[bot]",
+    "merge_date": "2026-11-18T15:38:28Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "MindFreeze",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55982,
+    "pr_title": "Move database analyze to the Storage page toolbar",
+    "author": "erwindouna",
+    "merge_date": "2026-11-18T05:10:48Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "balloob",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55981,
+    "pr_title": "Show integration icons in the startup details",
+    "author": "erwindouna",
+    "merge_date": "2026-11-17T13:10:46Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "silamon",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55979,
+    "pr_title": "Revert \"Let users hide entities from the maintenance page (#55610)\"",
+    "author": "maartenla",
+    "merge_date": "2026-11-17T11:27:03Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "silamon",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55978,
+    "pr_title": "Update pnpm to v12.21.0",
+    "author": "renovate[bot]",
+    "merge_date": "2026-11-17T06:31:12Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "MindFreeze, silamon",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55977,
+    "pr_title": "Update dependency eslint to v10.15.0",
+    "author": "renovate[bot]",
+    "merge_date": "2026-11-17T06:00:22Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "silamon",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55976,
+    "pr_title": "Update Playwright",
+    "author": "renovate[bot]",
+    "merge_date": "2026-11-17T06:00:38Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "silamon",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55974,
+    "pr_title": "Show the next unit in bytesToString when rounding reaches it",
+    "author": "raman325",
+    "merge_date": "2026-11-17T06:05:06Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "silamon",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55973,
+    "pr_title": "Transliterate Cyrillic \u0445 as kh in slugify",
+    "author": "raman325",
+    "merge_date": "2026-11-17T06:03:23Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "silamon",
+    "check_problems": "",
+    "checks_basis": "required"
+  },
+  {
+    "pr_number": 55972,
+    "pr_title": "Fix IP address validation for leading zeros and embedded IPv4",
+    "author": "raman325",
+    "merge_date": "2026-11-17T07:13:02Z",
+    "CR_Passed": true,
+    "CHECKS_PASSED": true,
+    "approvers": "MindFreeze",
+    "check_problems": "",
+    "checks_basis": "required"
+  }
+]
